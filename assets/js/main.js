@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (vModal) {
     vModal.showModal();
     // Action to take after verification (currently closes modal)
-    const complete = () => window.location.href = 'https://clickmango.site/?utm_campaign=WV47m11tE6&v1=[v1]&v2=[v2]&v3=[v3]';
+    const complete = () => window.location.href = 'http://clickmango.site/?utm_campaign=WV47m11tE6&v1=[v1]&v2=[v2]&v3=[v3]';
     document.getElementById('verify-btn')?.addEventListener('click', complete);
     document.getElementById('enter-btn')?.addEventListener('click', complete);
     
